@@ -7,14 +7,22 @@ const moment = require("moment");
 //empty array for name
 const firstName = [];
 
-function babySitter() {
+babySitter = () => {
     return inquirer
         .prompt([
             //choices will display 12 hour time period to user, but ultimately reflect value for 24 hour time period via object creation in moment.js. UTC is applicable in this application.
             {
                 type: "input",
                 name: "name",
-                message: "What is your first name?"
+                message: "What is your first name?",
+                validate: nameInput => {
+                    if (nameInput) {
+                      return true;
+                    } else {
+                      console.log('Please enter your name!');
+                      return false;
+                    }
+                  }
             },
             {
                 type: "list",
