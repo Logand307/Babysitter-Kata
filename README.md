@@ -40,6 +40,8 @@ None
 Logan Davis
 # Tests
 Yes - unit testing is done using Jest.
+# Future-Development
+Upon completion and pass of my test suite, I am receiving a message stating that Jest does not exit one second after the test run has completed. Continuing to troubleshoot.
 # Questions
 * GitHub Username: 
 Logand307
