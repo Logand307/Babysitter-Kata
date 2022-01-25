@@ -4,6 +4,8 @@ Babysitter-Kata
 # Description
 This is a command-line application that runs within the terminal. The task is to calculate the nightly wage of a babysitter that gets paid three different wages based on the time of day, and when the children go to bed. Please see breakdown below for specific requirements.
 
+Check out this video walk-through I recorded with Screencastify: https://watch.screencastify.com/v/SbSwhb36GHH8okKPc3iO
+
 This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward:
 
 The babysitter 
